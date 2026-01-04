@@ -1,4 +1,4 @@
-from flask import Flask, escape, request, render_template, jsonify, send_from_directory
+from flask import Flask, request, render_template, jsonify, send_from_directory
 from flask_socketio import SocketIO
 
 import os, sys, time
